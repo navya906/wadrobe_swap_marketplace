@@ -1,0 +1,21 @@
+.swap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.end-message {
+  font-size: 1.2rem;
+  color: #555;
+}

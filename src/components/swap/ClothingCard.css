@@ -1,0 +1,54 @@
+.clothes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.clothing-card {
+  flex: 1 1 200px; /* grow/shrink with space */
+  max-width: 220px;
+  min-width: 180px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.clothing-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.clothing-card h3 {
+  margin: 15px 0;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.clothing-card button {
+  margin: 8px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.clothing-card button:first-of-type {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.clothing-card button:last-of-type {
+  background-color: #4caf50;
+  color: white;
+}
+
+.clothing-card button:hover {
+  opacity: 0.85;
+}
+
