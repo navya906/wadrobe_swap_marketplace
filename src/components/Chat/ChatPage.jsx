@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
+import './ChatPage.css';
 
 const ChatPage = () => {
   const { userId } = useParams(); // simulate chat with a specific user
